@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:12-12-2024
+## Date:13-12-2024
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -434,7 +434,7 @@ contact.html
 ![alt text](<Screenshot (95).png>)
 ![alt text](<Screenshot (96).png>)
 ![alt text](<Screenshot (97).png>)
-![alt text](<Screenshot (98).png>)
+![alt text](<Screenshot (99).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
