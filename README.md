@@ -144,8 +144,6 @@ Home.html
 </html>
 
 
-Menu.html
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -159,7 +157,7 @@ Menu.html
             padding: 0;
             text-align: center;
             background-color: #f8f9fa;
-        }
+        } 
         h2 {
             background-color: #2a9d8f;
             color: white;
@@ -185,13 +183,36 @@ Menu.html
             font-size: 1.5em;
             margin: 10px 0;
         }
+        .nav-links {
+    list-style-type: none;
+    padding: 0;
+    background-color: #2a9d8f;
+    margin: 0;
+    overflow: hidden;
+}
+.nav-links li {
+    display: inline;
+    margin: 0;
+}
+.nav-links a {
+    display: inline-block;
+    padding: 8px 12px;
+    color: rgb(34, 16, 16);
+    text-decoration: none;
+}
+.nav-links a:hover {
+    background-color: #0caded;
+}
     </style>
 </head>
-<nav>
-    <ul>
-        <li><a href="#menu">Menu</a></li>
-    </ul>
-</nav>
+<!-- Navigation Bar -->
+<ul class="nav-links">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="administration.html">Administration</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
+<div class="contact-section">
 <section id="menu">
     <h2>Our Menu</h2>
     <div class="menu-grid">
@@ -263,6 +284,7 @@ Menu.html
 
 </body>
 </html>
+
 
 administration.html
 
@@ -429,7 +451,7 @@ contact.html
 
 ## OUTPUT:
 ![alt text](<Screenshot (92).png>)
-![alt text](<Screenshot (93).png>)
+![alt text](<Screenshot (103)-1.png>)
 ![alt text](<Screenshot (94).png>)
 ![alt text](<Screenshot (95).png>)
 ![alt text](<Screenshot (96).png>)
